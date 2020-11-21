@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/', [App\Http\Controllers\HomeController::class,'index'])->name('home.index');
+
+// contact
+Route::get('/contact', [App\Http\Controllers\ContactController::class,'contact'])->name('contact');
+Route::post('/contact', [App\Http\Controllers\ContactController::class,'store'])->name('contact.store');
+
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
