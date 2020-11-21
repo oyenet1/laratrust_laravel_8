@@ -1,0 +1,304 @@
+// background color
+
+.bg-milk1 {
+    background-color: rgb(210, 210, 210);
+}
+
+.bg-milk2 {
+    background-color: rgb(220, 220, 220);
+}
+
+.bg-milk3 {
+    background-color: rgb(230, 230, 230);
+}
+
+.bg-milk {
+    background-color: rgb(250, 250, 250);
+}
+
+.bg-milk4 {
+    background-color: rgb(240, 240, 240);
+}
+
+// donate buutton
+.nav-item a.donate {
+    color: rgb(10, 150, 20) !important;
+    font-weight: 700 !important;
+    display: block;
+    border-color: rgb(10, 150, 20) !important;
+}
+
+.nav-item a.donate:hover {
+    color: white !important;
+    background-color: rgb(10, 150, 20) !important;
+    transition: 1s;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.margin-negative {
+    margin-top: -100px !important;
+}
+
+.negative {
+    margin-bottom: 100px;
+}
+
+.crimsom-semi-bold {
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.noto {
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto,
+body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500 !important;
+    font-style: normal;
+}
+
+.anton,
+h5.head,
+.teko {
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+}
+
+.alfa,
+.slab {
+    font-family: 'Alfa Slab One', cursive;
+    font-style: normal;
+}
+
+// body {
+//     font-family: 'Noto Serif', serif;
+//     font-weight: 700;
+//     font-style: normal;
+// }
+
+.bg-black {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.text-color-2 {
+    color: rgb(70, 200, 50) !important;
+}
+
+a.fb i {
+    color: rgb(0, 100, 250) !important;
+}
+
+a.int i {
+    color: rgb(250, 20, 200) !important;
+}
+
+a.you i {
+    color: rgb(255, 10, 0) !important;
+}
+
+a.tw i {
+    color: rgb(5, 150, 250) !important;
+}
+
+a.icon-color-2:hover {
+    opacity: .7 !important;
+}
+
+a.link {
+    color: rgb(230, 230, 230) !important;
+}
+
+.p-100 {
+    padding: 150px;
+    border-bottom: 2rem;
+    border-style: solid;
+    border-color: rgb(10, 150, 20);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+
+.bg-trans {
+    background-image: linear-gradient(to right bottom, #10ff0a, yellow, green);
+}
+
+.mt-up {
+    margin-top: -9rem !important;
+    z-index: 1 !important;
+    background-color: white !important;
+}
+
+.p3 {
+    padding: 1px;
+}
+
+.z-index-n1 {
+    z-index: -1 !important;
+}
+
+#video,
+.video {
+    min-height: 100px;
+    max-height: 650px;
+    ;
+}
+
+// back in contact
+
+// field
+fieldset {
+    border: 1px solid #ddd !important;
+    margin: 0;
+    xmin-width: 0;
+    padding: 10px;
+    position: relative;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    padding-left: 10px !important;
+}
+
+legend {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    width: max-content;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 5px 5px 10px;
+}
+
+.mark {
+    font-size: 5em !important;
+}
+
+.atma {
+    font-family: 'Atma', cursive;
+    font-weight: 600;
+}
+
+h1.atma {
+    font-size: 8vw;
+}
+
+div.alert-botto {
+    position: fixed;
+    bottom: 3rem;
+    left: 2px;
+    min-width: 300px;
+    max-width: 50%;
+}
+
+// styling the link
+.nav-item a {
+    color: black !important;
+
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+    color: rgb(10, 150, 20) !important;
+    transition: 1s;
+}
+
+div.trans {
+    background-color: rgba(0, 0, 0, .5) !important;
+}
+
+.pad-5 {
+    padding: 5rem !important;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.bg-btn {
+    background-image: linear-gradient(to right bottom, red, yellow, red);
+}
+
+tr.d-flex:nth-child(even) {
+    justify-content: end !important;
+}
+
+span.big {
+    font-size: 3em;
+    width: 250px !important;
+}
+
+ a.trustee, .trustee {
+     color: #00aa0a;
+ }
+
+ hr.hr {
+     padding: 2px;
+ }
+
+//  carouse indicator
+.carousel-indicators li {
+    width: 18px!important;
+    //height: 10px!important;
+    border-radius: 50%;
+    background: #2ca;
+}
+
+.org {
+    background-color: rgba(230, 235, 230, .6);
+}
+.org2 {
+   // background-color: rgba(200, 255, 250, .7);
+    box-shadow: rgba(0, 5, 0, 1)!important;
+}
+
+.text-orange {
+    color: rgba(255, 120, 25, 1);
+}
+img.org {
+    max-width: 70%;
+}
+
+.dark-green {
+    color: rgb(0, 140, 20);
+}
+.dark-blue {
+    color: rgb(0, 30, 100);
+}
